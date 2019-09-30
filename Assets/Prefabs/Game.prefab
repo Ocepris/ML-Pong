@@ -504,9 +504,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Score_Left: {fileID: 2555786131207472981}
   Score_Right: {fileID: 2555786129485440679}
-  Paddle_Left: {fileID: 2555786129922853015}
-  Paddle_Right: {fileID: 2555786130825879682}
+  Agent_Left: {fileID: 2555786129922853015}
+  Agent_Right: {fileID: 2555786130825879682}
   autostart: 1
+  speed: 5
 --- !u!58 &1536061061642841298
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1150,7 +1151,7 @@ PrefabInstance:
     - target: {fileID: 2818954517368748164, guid: c566b1db5dc0c554d9965a2a0de3d137,
         type: 3}
       propertyPath: m_Name
-      value: Player_Left
+      value: Agent_Left
       objectReference: {fileID: 0}
     - target: {fileID: 2818954517368748167, guid: c566b1db5dc0c554d9965a2a0de3d137,
         type: 3}
@@ -1233,7 +1234,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 317795982338371604}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2555786129922853008}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 54e9c3d0878e4f44588e796462dac32d, type: 3}
   m_Name: 
@@ -1248,7 +1249,7 @@ PrefabInstance:
     - target: {fileID: 2702649377419235876, guid: 390d7ef9a8ea2b44785498d1b4e864fb,
         type: 3}
       propertyPath: m_Name
-      value: Player_Right
+      value: Agent_Right
       objectReference: {fileID: 0}
     - target: {fileID: 2702649377419235877, guid: 390d7ef9a8ea2b44785498d1b4e864fb,
         type: 3}
@@ -1331,7 +1332,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 501663982679896747}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2555786130825879695}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 54e9c3d0878e4f44588e796462dac32d, type: 3}
   m_Name: 
